@@ -16,3 +16,7 @@ var playerMove;
 computerMove = 'papier';
 printMessage('Zagrałem ' + playerMove + '! Jeśli Twój ruch to nożyce, to wygrywasz!');
 
+var randomNumber;
+randomNumber = Math.floor(Math.random() * 3 + 1);
+printMessage('Wylosowana liczba to: ' + randomNumber);
+
